@@ -13,6 +13,7 @@ package listofstudents;
 public class Student {
   private String name;
   private int id;
+  private String DOB;
   
   
   public Student()
@@ -24,7 +25,7 @@ public class Student {
   public Student(String givenName, int givenId)
   {
       this.name = givenName;
-      this.id = givenId;
+      id = givenId;
   }
   
   public void setName (String givenName)
@@ -44,5 +45,19 @@ public class Student {
   {
       return id;
   }
+
+    /**
+     * @return the DOB
+     */
+    public String getDOB() {
+        return DOB;
+    }
+
+    /**
+     * @param DOB the DOB to set
+     */
+    public void setDOB(String DOB) {
+        this.DOB = DOB;
+    }
   
 }
