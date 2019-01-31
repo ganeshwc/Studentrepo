@@ -46,6 +46,7 @@ public class ListOfStudents {
         System.out.println("AFTER s1 ==> Name: "+s1.getName() + " Id= "+ s1.getId());
         System.out.println("AFTER s2 ==> Name: "+s2.getName() + " Id= "+ s2.getId());
         System.out.println("AFTER s3 ==> Name: "+s3.getName() + " Id= "+ s3.getId());
+        System.out.println("Hello");
  
     }
     
