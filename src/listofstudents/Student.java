@@ -53,10 +53,11 @@ public class Student {
     /**
      * @return the DOB
      */
-    public int getDOB() {
+  /*  public int getDOB() {
        // return DOB;
        return  0;
-    }
+    }*/
+  //Just remove DOB
 
     /**
      * @param DOB the DOB to set
